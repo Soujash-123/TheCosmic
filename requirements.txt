@@ -6,3 +6,4 @@ torchaudio
 moviepy
 opencv-python
 pillow
+gunicorn
