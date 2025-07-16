@@ -1,7 +1,8 @@
-gradio
+flask
 transformers
 torch
-numpy
-Pillow
-librosa
-opencv-python-headless
+torchvision
+torchaudio
+moviepy
+opencv-python
+pillow
