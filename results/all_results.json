@@ -1,0 +1,45 @@
+{
+  "ping": {
+    "status": "online"
+  },
+  "text": {
+    "sentiment": "V. Good"
+  },
+  "image": {
+    "bright.jpg": {
+      "error": "File not found"
+    },
+    "neutral.jpg": {
+      "error": "File not found"
+    },
+    "dark.jpg": {
+      "error": "File not found"
+    }
+  },
+  "chat": {
+    "positive": {
+      "chat": "Hey! How are you doing today?\nI'm great, thanks for asking!\nThat's awesome. Keep smiling!\nYou too! Let's catch up soon.\nAbsolutely, have a wonderful day!",
+      "result": {
+        "sentiment": "V. Good"
+      }
+    },
+    "negative": {
+      "chat": "Nothing ever goes right for me.\nI'm tired of all this.\nWhy does everything feel so hopeless?\nI just want to give up.\nNo one understands how I feel.",
+      "result": {
+        "sentiment": "V. Bad"
+      }
+    },
+    "toxic": {
+      "chat": "If you talk to them again, we're done.\nYou belong to me and no one else.\nDon't even think about leaving me.\nI can't trust you anymore.\nYou make me so angry sometimes.",
+      "result": {
+        "sentiment": "V. Bad"
+      }
+    },
+    "threatening": {
+      "chat": "If you don't do what I say, you'll regret it.\nThis is your last warning.\nDon't test my patience.\nYou better watch your back.\nI know where you live.",
+      "result": {
+        "sentiment": "Bad"
+      }
+    }
+  }
+}
